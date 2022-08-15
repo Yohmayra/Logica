@@ -6,9 +6,9 @@ var Nota4 =prompt("Digite sua quarta nota");
 var Soma =(parseFloat(Nota1)+parseFloat(Nota2)+parseFloat(Nota3)+parseFloat
 (Nota4));
 var Media = Soma / 4;
-    document.write("Sua média é: " + Media + "<br>");
+    console.log("Sua média é: " + Media + "<br>");
 if (Media < 7) {
-    document.write("Estude mais para ser Aprovado!");  
+    console.log("Estude mais para ser Aprovado!");  
 } else {
-    document.write(" Parabéns você foi Aprovado!!");
+    console.log(" Parabéns você foi Aprovado!!");
 }
