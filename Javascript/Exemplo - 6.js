@@ -3,4 +3,4 @@ var segundo =prompt("Digite o segundo número");
 
 var soma =(parseFloat(primeiro)+parseFloat(segundo));
 var resultado =soma;
-    document.write("O resultado é de: " + resultado);
+    console.log("O resultado é de: " + resultado);
