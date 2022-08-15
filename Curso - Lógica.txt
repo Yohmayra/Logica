@@ -1,0 +1,246 @@
+Lógica:
+
+- A lógica de programação é necessária para as pessoas que desejam trabalhar com desenvolvimento de sistemas e programas, ela permite definir a sequência lógica para o desenvolvimento. Então: Lógica de programação é a técnica de encadear pensamentos para atingir determinado objetivo.
+--------------------------------------------------------------------------------
+Sequência Lógica:
+
+- Estes pensamentos, podem ser descritos como uma sequência de instruções, que devem ser seguidas para se cumprir uma determinada tarefa. Então: Sequência Lógica são passos executados até atingir um objetivo ou solução de um problema.
+--------------------------------------------------------------------------------
+Algoritmos:
+
+- Um Algoritmo é formalmente uma sequência finita de passos que levam a execução de uma tarefa. Com início, meio e fim, podemos pensar em algoritmo como uma receita, uma sequência de instruções que dão cabo de uma meta específica. Estas tarefas não podem ser redundantes nem subjetivas na sua definição, devem ser claras e precisas. 
+- Exemplo: Soma de dois números
+" Somar dois números quaisquer"
+Escreva o primeiro número no retângulo A
+Escreva o segundo número no retângulo B
+Some o número do retângulo A com o número do retângulo B e coloque o resultado no retângulo C
+--------------------------------------------------------------------------------
+O que são Programas:
+
+- São algoritmos escritos em alguma linguagem de computador.
+Ex: Java, C, Cobol, Pascal, PHP e outras.
+Possuí uma interpretação rigorosa e rígida dos algoritmos da vida real.
+- Exemplo de programas: Windows, Linux, Mac, Chrome, Mozila, Edge, aplicativos, e programas de computador ou celular em geral. Os programas são feitos para facilitar o nosso dia a dia.
+--------------------------------------------------------------------------------
+Pseudocódigos:
+
+- É a linguagem que os algoritmos são feitos e depois transformados e escritos em linguagem de programação.
+Entrada: São os dados.
+Processamento: Forma que é feita.
+Saída: Resultado.
+- Exemplo: Calcular média
+Média Final = (N1 + N2 + N3 + N4) / 4
+    Receba a nota 1
+    Receba a nota 2
+    Receba a nota 3
+    Receba a nota 4
+Somar as notas e dividir por 4
+Mostre o resultado da divisão.
+
+var N1=10, N2=20, N3=30, N4=80;
+var Resultado = 0;
+Resultado = (N1+N2+N3+N4)/4
+Saida = Resultado;
+"Resultado" = 35
+--------------------------------------------------------------------------------
+O que é Diagrama de bloco:
+
+- É uma forma padronizada e eficaz para representar os passos lógicos de um determinado processamento, com diagrama podemos definir uma sequência de símbolos, com significado bem definido, portanto, sua principal função é a de facilitar a visualização dos passos de um processamento.
+--------------------------------------------------------------------------------
+Simbologia Diagrama de Bloco:
+
+            Símbolos
+Terminal - Indica o INÍCIO ou FIM de um processamento.
+Processamento - Processamento em geral.
+Entrada de dados Manual - Indica entrada de dados através do teclado.
+Exibir - Mostra informações ou resultados.
+--------------------------------------------------------------------------------
+Exemplos diagrama de Bloco:
+
+Comer um bolinho
+Terminal - Início
+Processamento - Pegar o bolinho
+Processamento - Retirar o papel
+Processamento - Comer o bolinho
+Processamento - Jogar o papel no lixo
+Terminal - Fim
+
+Calcular a média das notas
+Terminal - Início
+Entrada de dados Manual - N1,N2,N3,N4
+Processamento - (N1+N2+N3+N4)/4
+Exibir - Média
+Terminal - Fim
+--------------------------------------------------------------------------------
+Constantes:
+
+- É um determinado valor fixo que não se modifica ao longo do tempo, durante a execução de um programa. Conforme o seu tipo, a constante é classificada como sendo númerica, lógica e literal.
+Exemplo: em linguagem Java.
+private static final String TIPO_JURIDICA = "Juridica";
+private static final boolean ATIVO = true;
+private static final in MEDIA = 80;
+--------------------------------------------------------------------------------
+Variáveis:
+
+- É uma representação de um certo conjunto. Cada variável corresponde a uma posição de memória, cujo o conteúdo pode se alterado ao longo do tempo durante
+a execução de um programa. Embora uma variável possa assumir diferentes valores,ela só pode armazenar um valor a cada instante.
+Exemplo de Variáveis:
+Variáveis - Total = Produto * Quantidade
+
+Variável - Nome =  "José"   - Conteúdo da variável
+Variável - Idade =  "50"    - Conteúdo da variável
+
+Exemplo: em linguagem Java
+public class cursoJava{
+    private static double total = 0;
+    private static int produtos = 10;
+    private static int quantidade = 15
+    public static void main (String[]args){
+        total = produtos * quantidade;
+        System.out.println(total);
+    }
+}
+
+Então o conceito da variável é de alterar um valor, carregar um valor, processar o valor e também pode ser alterado.
+--------------------------------------------------------------------------------
+Operadores Aritméticos:
+
+Os operadores aritméticos são utilizados para obter resultados numéricos, além da adição, subtração, multiplicação e divisão, podem utilizar também o operador para exponenciação. Os símbolos para os operadores aritméticos são:
+Adição +
+Subtração - 
+Multiplicação *
+Divisão /
+--------------------------------------------------------------------------------
+Operadores relacionais:
+
+- Os operadores relacionais são utilizados para comparar String de caracteres, números, verificações, condições e tomadas de decisão. Os valores a serem comparados podem ser caracteres ou variáveis. Estes operadores sempre retornam valores lógicos (verdadeiro ou falso/True ou False).
+Os operadores são:
+True = Sim              Se SIM faz A
+False = Não             Se NÃO faz B
+
+Descrição           Símbolo
+Igual a               ==
+Diferente de          <>
+Maior que             >
+Menor que             <
+Maior ou igual        >=
+Menor ou igual        <=
+
+Símbolos em java
+Diferente           !=
+--------------------------------------------------------------------------------
+Operadores Lógicos:
+
+- Servem para combinar resultados de expressões, retornando se o resultado final é verdadeiro ou falso.
+
+OU em Java  -  | ou ||
+OU em SQL   -  OR
+E em Java   -  & ou &&
+E em SQL    -   AND
+União       -   C & C|C
+
+Quando usamos os operadores duplos (&& e ||) o java não continua as verificações se o resultado já for conhecido. Já usando os operadores simples (& e |), ambos os lados da operação são sempre verificados.
+--------------------------------------------------------------------------------
+Estruturas de decisões:
+
+Fluxograma: 
+      Início
+        |
+Média >= 7.0 -------- ALUNO APROVADO IMPRIME CERTIFICADO ENVIA E-MAIL.
+     não|
+        |
+       Fim
+
+Pseudocódigos:
+if media >= 7 then
+    resultado = "Aprovado"
+else 
+    resultado = "Reprovado"
+
+O espaçamento na linha de baixo, representa a que a linha de baixo será executada após a linha de cima for verdadeira , estar nas condições.
+--------------------------------------------------------------------------------
+Estruturas de decisões:
+
+Fluxograma:
+                        ---não---(media >=5.0) ---sim---
+                            |                     |
+                            |                     |
+                    (Aluno Reprovado)            (media >=7.0)---sim---
+                        |                         |             |
+                        |                         |         (Aluno Aprovado)
+                        |             (Aluno necessita          |
+                        |            Fazer outras avaliação)    |
+                        |                      |                |   
+                        |                      |________________|
+                        |                              |
+                        |____________FIM_______________|
+                                      |
+Pseudocódigos:           
+if media >= 5 then 
+    if media >= 7.0 then
+        text1 = "Aluno Aprovado"
+    else    
+        text1 = "Aluno Reprovado"
+    end
+--------------------------------------------------------------------------------
+Estrutura de decisões CASE:
+
+Fluxograma: 
+    Início
+       |
+    CASE: >=7 ------ Aprovado   ------  Fim
+       |
+    CASE: =6.9 ------ Reprovado ------  Fim
+
+Pseudocódigos: 
+Teste nota
+    case: >=7
+        "Aprovado"
+    case: <=6.9
+        "Recuperação"
+Else 
+    "Reprovado"
+
+O metódo Case simplifica a estrutura de decisão, mas só recebe o valor e só  testa se o valor da variável for verdadeira ou não, reduzindo os códigos, não consegue realizar muitos testes, apenas um teste unico de dados.
+--------------------------------------------------------------------------------
+Estrutura de Repetição:
+
+As estruturas de repetição são conhecidas como laços (loops) e são utilizados para executar, repetidamente, uma instrução ou bloco de intrução enquanto determinada condição estiver sendo satisfeita.
+
+int numero = 0
+While(numero<100)
+    "Executa algum processo"
+    numero +=1
+end
+
+Obs: Sempre deve haver um limite.
+Toda estrutura de repetição vai executar enquanto for verdadeira, então terá que ter um termino, um limite informando para a execução parar.
+--------------------------------------------------------------------------------
+Sintaxe de códigos:
+
+- Em uma linguagem de programação o termo sintae refere-se ás regra da escrita correta dos comando de texto para que os termos da linguagem executem e sejam interpretados e entendidos pelo computador.
+
+Exemplo simples abaixo onde é exibido uma janela para o usuário informar o 
+nome:
+
+JOptionPane.showInputDialog("Qual seu nome?"); - o código executa corretamente
+
+JOptionpane.showInputDialog("Qual seu nome?"); - o código NÃO executa 
+
+Termo o P escrito em minúsculo e isso não entra como parte da sintaxe então
+temos um erro.
+--------------------------------------------------------------------------------
+Semântica do código
+
+- A semântica é complementar à sintaxe de progrmas de comoutador, que se preoucupa em descreverr as estruturas de uma linguagem de prigramação.
+
+É escrever o código com a estrutura correta para a execução sequêncial do código da liguagem e obtendo o resultado final.
+
+Exemplo: Incrementar um contador até 10.
+
+int incrementar = 0;
+for (int cont = 0; cont < 10;
+cont++){                                - Repete e incrementa
+incrementa ++
+}
+--------------------------------------------------------------------------------
