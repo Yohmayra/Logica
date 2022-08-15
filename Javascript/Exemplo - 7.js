@@ -5,4 +5,4 @@ var Nota4 =prompt("Digite sua quarta nota");
 
 var Soma =(parseFloat(Nota1)+parseFloat(Nota2)+parseFloat(Nota3)+parseFloat(Nota4));
 var Media = Soma / 4;
-    document.write("A sua média é de " + Soma);
+    console.log("A sua média é de " + Soma);
