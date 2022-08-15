@@ -1,6 +1,7 @@
-var primeiro =prompt("Digite o primeiro número");
-var segundo =prompt("Digite o segundo número");
+var primeiro = 5;
+var segundo = 10;
 
-var soma =(parseFloat(primeiro)+parseFloat(segundo));
+var soma = (parseFloat(primeiro)+parseFloat(segundo));
 var resultado =soma;
-    console.log("O resultado é de: " + resultado);
+
+console.log("O resultado é de: " + resultado);
