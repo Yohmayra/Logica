@@ -1,1 +1,1 @@
-Curso - Lógica de Programação com Java e JS.
+Curso: Lógica de Programação com Java e Javascript.
